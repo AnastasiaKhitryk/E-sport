@@ -10,6 +10,8 @@ public abstract class DaoFactory {
 
 	private static DaoFactory instance;
 	
+	
+	// review
 	public static synchronized DaoFactory getInstance() throws DaoException {
         if(instance == null){
             try {
